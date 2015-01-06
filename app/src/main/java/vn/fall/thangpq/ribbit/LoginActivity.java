@@ -17,6 +17,7 @@ public class LoginActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        mSignUpText = (TextView) findViewById(R.id.signupText);
         mSignUpText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
